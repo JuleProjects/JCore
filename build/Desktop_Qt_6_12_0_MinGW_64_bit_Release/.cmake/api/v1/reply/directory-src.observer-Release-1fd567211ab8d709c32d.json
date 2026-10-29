@@ -1,0 +1,57 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/observer/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"fileSetDirectories" : 
+			[
+				"include"
+			],
+			"fileSetName" : "HEADERS",
+			"fileSetTarget" : 
+			{
+				"id" : "jcore_observer::@4581bebf43805b95f013",
+				"index" : 8
+			},
+			"fileSetType" : "HEADERS",
+			"paths" : 
+			[
+				{
+					"from" : "include/jcore/observer.hpp",
+					"to" : "jcore/observer.hpp"
+				}
+			],
+			"type" : "fileSet"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/observer",
+		"source" : "src/observer"
+	}
+}

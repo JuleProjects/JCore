@@ -1,0 +1,577 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						10,
+						13
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f62373e4f0c763347951.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-Release-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/common",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.common-Release-42bc60d60324666398e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/common",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/delegate",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.delegate-Release-ef65045a9ebeadd1a933.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "src/delegate",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/elapsed_timer",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.elapsed_timer-Release-b40d316606aebecb7f25.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "src/elapsed_timer",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/ev_queue",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.ev_queue-Release-c16e43fbbee1e2e7039e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "src/ev_queue",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "src/exec_timer",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.exec_timer-Release-f092453b7cc689ed1a47.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "src/exec_timer",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "src/min_max_tracker",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.min_max_tracker-Release-d08a736efba9fa3f9dea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 6,
+					"source" : "src/min_max_tracker",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "src/observer",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.observer-Release-1fd567211ab8d709c32d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 7,
+					"source" : "src/observer",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "src/state_machine",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.state_machine-Release-c344b2d7c22c7dcc5f47.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 8,
+					"source" : "src/state_machine",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "benchmarks",
+					"childIndexes" : 
+					[
+						11,
+						12
+					],
+					"jsonFile" : "directory-benchmarks-Release-83885a3c2b06b23b7364.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "benchmarks"
+				},
+				{
+					"build" : "benchmarks/delegate",
+					"jsonFile" : "directory-benchmarks.delegate-Release-016552b2f2b82dc059c1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 9,
+					"source" : "benchmarks/delegate",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "benchmarks/ev_queue",
+					"jsonFile" : "directory-benchmarks.ev_queue-Release-41c3740bb03395769f83.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 10,
+					"source" : "benchmarks/ev_queue",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "tests",
+					"childIndexes" : 
+					[
+						14,
+						15,
+						16
+					],
+					"jsonFile" : "directory-tests-Release-70e4927a02b591d5c1f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests"
+				},
+				{
+					"build" : "tests/delegate",
+					"jsonFile" : "directory-tests.delegate-Release-bdc0eb310d555f2fd7f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 11,
+					"source" : "tests/delegate",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "tests/observer",
+					"jsonFile" : "directory-tests.observer-Release-9be8db33af67a2e89ef3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 12,
+					"source" : "tests/observer",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "tests/state_machine",
+					"jsonFile" : "directory-tests.state_machine-Release-8f3b935bd1982cf9f93c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 13,
+					"source" : "tests/state_machine",
+					"targetIndexes" : 
+					[
+						12
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						10,
+						13
+					],
+					"name" : "JCore"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "jcore_common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "jcore_delegate",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "jcore_elapsed_timer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "jcore_ev_queue",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "jcore_exec_timer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "jcore_min_max_tracker",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "jcore_observer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "jcore_state_machine",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "benchmark_delegate",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "benchmark_ev_queue",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "test_delegate",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "test_observer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "test_state_machine",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 11,
+					"id" : "benchmark_delegate::@47b1cd7abeb515ecc946",
+					"jsonFile" : "target-benchmark_delegate-Release-bef95e735c4762c50a86.json",
+					"name" : "benchmark_delegate",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "benchmark_ev_queue::@2c9714b64156853f4479",
+					"jsonFile" : "target-benchmark_ev_queue-Release-eac19889724495213462.json",
+					"name" : "benchmark_ev_queue",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "jcore_common::@af79f3804eddddbfa7f1",
+					"jsonFile" : "target-jcore_common-Release-9345f6d0ffbb24cdd974.json",
+					"name" : "jcore_common",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "jcore_delegate::@1745d26b533f54600435",
+					"jsonFile" : "target-jcore_delegate-Release-03eeca8e619c9ee0f4bc.json",
+					"name" : "jcore_delegate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "jcore_elapsed_timer::@04e2822564935639a50e",
+					"jsonFile" : "target-jcore_elapsed_timer-Release-01b195d17d73c37065de.json",
+					"name" : "jcore_elapsed_timer",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "jcore_ev_queue::@a0af409557148a99bc7d",
+					"jsonFile" : "target-jcore_ev_queue-Release-0a3b2bbb7863e7dd9102.json",
+					"name" : "jcore_ev_queue",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "jcore_exec_timer::@7431d563629403c78389",
+					"jsonFile" : "target-jcore_exec_timer-Release-aa5f091e3c92c148cfb0.json",
+					"name" : "jcore_exec_timer",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "jcore_min_max_tracker::@e078abd4045f2943247a",
+					"jsonFile" : "target-jcore_min_max_tracker-Release-f502ff10aa00250ed336.json",
+					"name" : "jcore_min_max_tracker",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "jcore_observer::@4581bebf43805b95f013",
+					"jsonFile" : "target-jcore_observer-Release-875094f1da88609966af.json",
+					"name" : "jcore_observer",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "jcore_state_machine::@1cc4bb7dda7be917a9aa",
+					"jsonFile" : "target-jcore_state_machine-Release-3da7d5d5689bf83a6270.json",
+					"name" : "jcore_state_machine",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "test_delegate::@371719807e3384e94365",
+					"jsonFile" : "target-test_delegate-Release-1b53b97155881f8b3197.json",
+					"name" : "test_delegate",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "test_observer::@ca2dcb7724c18d256ad4",
+					"jsonFile" : "target-test_observer-Release-adddfce6696994040fd0.json",
+					"name" : "test_observer",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "test_state_machine::@afa36d5f7b84f9096650",
+					"jsonFile" : "target-test_state_machine-Release-e7dfea6177bbaaec9f0e.json",
+					"name" : "test_state_machine",
+					"projectIndex" : 13
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/MEGA/JLib/cpp/JCore/build/Desktop_Qt_6_12_0_MinGW_64_bit_Release",
+		"source" : "D:/MEGA/JLib/cpp/JCore"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

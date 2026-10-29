@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/jmath-build/src",
+		"source" : "D:/MEGA/JLib/cpp/JMath/src"
+	}
+}

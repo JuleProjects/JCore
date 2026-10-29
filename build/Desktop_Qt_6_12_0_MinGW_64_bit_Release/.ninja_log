@@ -1,0 +1,22 @@
+# ninja log v6
+1547	1796	8149994405236403	D:/MEGA/JLib/cpp/JCore/build/Desktop_Qt_6_12_0_MinGW_64_bit_Release/tests/observer/test_observer[1]_tests.cmake	82430ff03ebf9d88
+16	29	8149994386730667	clean	139b443fbd37261f
+2872	3036	8150002401055448	benchmarks/ev_queue/benchmark_ev_queue.exe	81de7a40aad3fa69
+1588	1819	8149994405467751	tests/delegate/test_delegate.exe	6eae6d735b59810f
+2411	2741	8150001398259956	tests/state_machine/test_state_machine[1]_tests.cmake	5066af41fda1cc94
+32	1547	8149994387667651	tests/observer/CMakeFiles/test_observer.dir/main.cpp.obj	b1d41046e2b0860c
+1547	1796	8149994405236403	tests/observer/test_observer.exe	82430ff03ebf9d88
+1588	1819	8149994405467751	tests/delegate/test_delegate[1]_tests.cmake	6eae6d735b59810f
+2411	2741	8150001398259956	D:/MEGA/JLib/cpp/JCore/build/Desktop_Qt_6_12_0_MinGW_64_bit_Release/tests/state_machine/test_state_machine[1]_tests.cmake	5066af41fda1cc94
+31	2411	8150001371232331	tests/state_machine/CMakeFiles/test_state_machine.dir/main.cpp.obj	33d2ffe6a6d6541a
+2411	2741	8150001398259956	tests/state_machine/test_state_machine.exe	5066af41fda1cc94
+28	1588	8149994387627646	tests/delegate/CMakeFiles/test_delegate.dir/main.cpp.obj	21bf6bdf8c22b701
+40	1500	8149994387747916	tests/state_machine/CMakeFiles/test_state_machine.dir/state_a.cpp.obj	6c23bcfb624cc5c1
+24	2872	8150002372565640	benchmarks/ev_queue/CMakeFiles/benchmark_ev_queue.dir/main.cpp.obj	d66f878b4558f022
+1588	1819	8149994405467751	D:/MEGA/JLib/cpp/JCore/build/Desktop_Qt_6_12_0_MinGW_64_bit_Release/tests/delegate/test_delegate[1]_tests.cmake	6eae6d735b59810f
+1547	1796	8149994405236403	tests/observer/test_observer[1]_tests.cmake	82430ff03ebf9d88
+20	1274	8149994387542542	benchmarks/delegate/CMakeFiles/benchmark_delegate.dir/main.cpp.obj	ad4b24e80bfc53b5
+1275	1417	8149994400099088	benchmarks/delegate/benchmark_delegate.exe	d36b77d7e890302e
+45	1458	8149994387797918	tests/state_machine/CMakeFiles/test_state_machine.dir/state_b.cpp.obj	e439bf1c597abade
+24	1131	8150006482124760	benchmarks/delegate/CMakeFiles/benchmark_delegate.dir/main.cpp.obj	ad4b24e80bfc53b5
+1131	1267	8150006493203721	benchmarks/delegate/benchmark_delegate.exe	d36b77d7e890302e

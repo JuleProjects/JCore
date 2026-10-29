@@ -1,0 +1,71 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"src/delegate/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			}
+		]
+	},
+	"fileSets" : 
+	[
+		{
+			"baseDirectories" : 
+			[
+				"include"
+			],
+			"name" : "HEADERS",
+			"type" : "HEADERS",
+			"visibility" : "INTERFACE"
+		}
+	],
+	"id" : "jcore_delegate::@1745d26b533f54600435",
+	"name" : "jcore_delegate",
+	"paths" : 
+	{
+		"build" : "src/delegate",
+		"source" : "src/delegate"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"path" : "include/jcore/delegate.hpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "INTERFACE_LIBRARY"
+}

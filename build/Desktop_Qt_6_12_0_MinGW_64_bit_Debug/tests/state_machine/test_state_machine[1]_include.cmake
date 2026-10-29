@@ -1,0 +1,5 @@
+if(EXISTS "D:/MEGA/JLib/cpp/JCore/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/tests/state_machine/test_state_machine[1]_tests.cmake")
+  include("D:/MEGA/JLib/cpp/JCore/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/tests/state_machine/test_state_machine[1]_tests.cmake")
+else()
+  add_test(test_state_machine_NOT_BUILT test_state_machine_NOT_BUILT)
+endif()

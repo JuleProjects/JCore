@@ -1,0 +1,61 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"D:/MEGA/JLib/cpp/JMath/src/eigen/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"fileSetDirectories" : 
+			[
+				"D:/MEGA/JLib/cpp/JMath/include"
+			],
+			"fileSetName" : "HEADERS",
+			"fileSetTarget" : 
+			{
+				"id" : "jmath_eigen::@618339617d08b4a6deba",
+				"index" : 10
+			},
+			"fileSetType" : "HEADERS",
+			"paths" : 
+			[
+				{
+					"from" : "D:/MEGA/JLib/cpp/JMath/include/jmath/eigen.hpp",
+					"to" : "jmath/eigen.hpp"
+				},
+				{
+					"from" : "D:/MEGA/JLib/cpp/JMath/include/jmath/eigen_dense_base_addons.hpp",
+					"to" : "jmath/eigen_dense_base_addons.hpp"
+				}
+			],
+			"type" : "fileSet"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/jmath-build/src/eigen",
+		"source" : "D:/MEGA/JLib/cpp/JMath/src/eigen"
+	}
+}

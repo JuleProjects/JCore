@@ -1,0 +1,71 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"src/state_machine/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			}
+		]
+	},
+	"fileSets" : 
+	[
+		{
+			"baseDirectories" : 
+			[
+				"include"
+			],
+			"name" : "HEADERS",
+			"type" : "HEADERS",
+			"visibility" : "INTERFACE"
+		}
+	],
+	"id" : "jcore_state_machine::@1cc4bb7dda7be917a9aa",
+	"name" : "jcore_state_machine",
+	"paths" : 
+	{
+		"build" : "src/state_machine",
+		"source" : "src/state_machine"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"path" : "include/jcore/state_machine.hpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "INTERFACE_LIBRARY"
+}

@@ -1,0 +1,71 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"src/elapsed_timer/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			}
+		]
+	},
+	"fileSets" : 
+	[
+		{
+			"baseDirectories" : 
+			[
+				"include"
+			],
+			"name" : "HEADERS",
+			"type" : "HEADERS",
+			"visibility" : "INTERFACE"
+		}
+	],
+	"id" : "jcore_elapsed_timer::@04e2822564935639a50e",
+	"name" : "jcore_elapsed_timer",
+	"paths" : 
+	{
+		"build" : "src/elapsed_timer",
+		"source" : "src/elapsed_timer"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"path" : "include/jcore/elapsed_timer.hpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "INTERFACE_LIBRARY"
+}

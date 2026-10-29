@@ -1,0 +1,57 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"D:/MEGA/JLib/cpp/JMath/src/integrator/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"fileSetDirectories" : 
+			[
+				"D:/MEGA/JLib/cpp/JMath/include"
+			],
+			"fileSetName" : "HEADERS",
+			"fileSetTarget" : 
+			{
+				"id" : "jmath_integrator::@dafbe25e9e344f1de325",
+				"index" : 12
+			},
+			"fileSetType" : "HEADERS",
+			"paths" : 
+			[
+				{
+					"from" : "D:/MEGA/JLib/cpp/JMath/include/jmath/integrator.hpp",
+					"to" : "jmath/integrator.hpp"
+				}
+			],
+			"type" : "fileSet"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/jmath-build/src/integrator",
+		"source" : "D:/MEGA/JLib/cpp/JMath/src/integrator"
+	}
+}

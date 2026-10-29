@@ -1,0 +1,15 @@
+set(MODULE_NAME min_max_tracker)
+project(${PKG_NAME}_${MODULE_NAME})
+
+add_library(${PROJECT_NAME} INTERFACE)
+add_library(${ROOT_PROJECT_NAME}::${MODULE_NAME} ALIAS ${PROJECT_NAME})
+
+set(HDRS ${ROOT_DIR}/include/${PKG_NAME}/${MODULE_NAME}.hpp)
+
+target_sources(${PROJECT_NAME}
+    PRIVATE ${HDRS}
+    INTERFACE FILE_SET HEADERS BASE_DIRS ${ROOT_DIR}/include FILES ${HDRS})
+
+target_link_libraries(${PROJECT_NAME} INTERFACE ${PKG_NAME}_common)
+
+install(TARGETS ${PROJECT_NAME} EXPORT ${ROOT_PROJECT_NAME}Targets FILE_SET HEADERS)

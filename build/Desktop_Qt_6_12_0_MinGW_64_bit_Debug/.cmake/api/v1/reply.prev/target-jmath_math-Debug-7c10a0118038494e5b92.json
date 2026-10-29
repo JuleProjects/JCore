@@ -1,0 +1,71 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"D:/MEGA/JLib/cpp/JMath/src/math/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			}
+		]
+	},
+	"fileSets" : 
+	[
+		{
+			"baseDirectories" : 
+			[
+				"D:/MEGA/JLib/cpp/JMath/include"
+			],
+			"name" : "HEADERS",
+			"type" : "HEADERS",
+			"visibility" : "INTERFACE"
+		}
+	],
+	"id" : "jmath_math::@530882b4f44b3c4e5a69",
+	"name" : "jmath_math",
+	"paths" : 
+	{
+		"build" : "_deps/jmath-build/src/math",
+		"source" : "D:/MEGA/JLib/cpp/JMath/src/math"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"path" : "D:/MEGA/JLib/cpp/JMath/include/jmath/math.hpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "INTERFACE_LIBRARY"
+}

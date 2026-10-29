@@ -1,0 +1,5 @@
+if(EXISTS "D:/MEGA/JLib/cpp/JCore/build/Desktop_Qt_6_12_0_MinGW_64_bit_Release/tests/observer/test_observer[1]_tests.cmake")
+  include("D:/MEGA/JLib/cpp/JCore/build/Desktop_Qt_6_12_0_MinGW_64_bit_Release/tests/observer/test_observer[1]_tests.cmake")
+else()
+  add_test(test_observer_NOT_BUILT test_observer_NOT_BUILT)
+endif()

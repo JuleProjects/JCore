@@ -1,0 +1,100 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 72,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/jcore",
+			"paths" : 
+			[
+				"build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/JCoreConfig.cmake",
+				"build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/JCoreConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/jcore",
+			"exportName" : "JCoreTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "jcore::@145eef247bfb46b6828c",
+					"index" : 0
+				},
+				{
+					"id" : "jcore_common::@af79f3804eddddbfa7f1",
+					"index" : 2
+				},
+				{
+					"id" : "jcore_delegate::@1745d26b533f54600435",
+					"index" : 3
+				},
+				{
+					"id" : "jcore_elapsed_timer::@04e2822564935639a50e",
+					"index" : 4
+				},
+				{
+					"id" : "jcore_ev_queue::@a0af409557148a99bc7d",
+					"index" : 5
+				},
+				{
+					"id" : "jcore_exec_timer::@7431d563629403c78389",
+					"index" : 6
+				},
+				{
+					"id" : "jcore_min_max_tracker::@e078abd4045f2943247a",
+					"index" : 7
+				},
+				{
+					"id" : "jcore_observer::@4581bebf43805b95f013",
+					"index" : 8
+				},
+				{
+					"id" : "jcore_state_machine::@1cc4bb7dda7be917a9aa",
+					"index" : 9
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/add1d889623f24bd188e2b050141b3ba/JCoreTargets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

@@ -1,0 +1,57 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"D:/MEGA/JLib/cpp/JMath/src/func_gen/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"fileSetDirectories" : 
+			[
+				"D:/MEGA/JLib/cpp/JMath/include"
+			],
+			"fileSetName" : "HEADERS",
+			"fileSetTarget" : 
+			{
+				"id" : "jmath_func_gen::@bbfef8dc4c6121fb18c8",
+				"index" : 11
+			},
+			"fileSetType" : "HEADERS",
+			"paths" : 
+			[
+				{
+					"from" : "D:/MEGA/JLib/cpp/JMath/include/jmath/func_gen.hpp",
+					"to" : "jmath/func_gen.hpp"
+				}
+			],
+			"type" : "fileSet"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/jmath-build/src/func_gen",
+		"source" : "D:/MEGA/JLib/cpp/JMath/src/func_gen"
+	}
+}

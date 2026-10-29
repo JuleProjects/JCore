@@ -1,0 +1,808 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						10,
+						20
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-19309a43171d672d6906.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/common",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.common-Debug-42bc60d60324666398e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/common",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/delegate",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.delegate-Debug-ef65045a9ebeadd1a933.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "src/delegate",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/elapsed_timer",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.elapsed_timer-Debug-b40d316606aebecb7f25.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "src/elapsed_timer",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/ev_queue",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.ev_queue-Debug-c16e43fbbee1e2e7039e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "src/ev_queue",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "src/exec_timer",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.exec_timer-Debug-f092453b7cc689ed1a47.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "src/exec_timer",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "src/min_max_tracker",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.min_max_tracker-Debug-d08a736efba9fa3f9dea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 6,
+					"source" : "src/min_max_tracker",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "src/observer",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.observer-Debug-1fd567211ab8d709c32d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 7,
+					"source" : "src/observer",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "src/state_machine",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.state_machine-Debug-c344b2d7c22c7dcc5f47.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 8,
+					"source" : "src/state_machine",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "benchmarks",
+					"childIndexes" : 
+					[
+						11,
+						18,
+						19
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-benchmarks-Debug-83885a3c2b06b23b7364.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "benchmarks"
+				},
+				{
+					"build" : "_deps/jmath-build",
+					"childIndexes" : 
+					[
+						12
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.jmath-build-Debug-8a3f74c51b77473c4968.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 9,
+					"source" : "D:/MEGA/JLib/cpp/JMath"
+				},
+				{
+					"build" : "_deps/jmath-build/src",
+					"childIndexes" : 
+					[
+						13,
+						14,
+						15,
+						16,
+						17
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.jmath-build.src-Debug-0803e7fe18e02593c79e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 9,
+					"source" : "D:/MEGA/JLib/cpp/JMath/src"
+				},
+				{
+					"build" : "_deps/jmath-build/src/eigen",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.jmath-build.src.eigen-Debug-bbe785025b806ea694f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 10,
+					"source" : "D:/MEGA/JLib/cpp/JMath/src/eigen",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "_deps/jmath-build/src/func_gen",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.jmath-build.src.func_gen-Debug-54ee6a92dba975fc6bc3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 11,
+					"source" : "D:/MEGA/JLib/cpp/JMath/src/func_gen",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "_deps/jmath-build/src/integrator",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.jmath-build.src.integrator-Debug-b5f30ddd10062fb85292.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 12,
+					"source" : "D:/MEGA/JLib/cpp/JMath/src/integrator",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "_deps/jmath-build/src/math",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.jmath-build.src.math-Debug-3c7150a6e7b09bbc0d07.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 13,
+					"source" : "D:/MEGA/JLib/cpp/JMath/src/math",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "_deps/jmath-build/src/transform",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.jmath-build.src.transform-Debug-56c75e192e546a43ad2f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 14,
+					"source" : "D:/MEGA/JLib/cpp/JMath/src/transform",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "benchmarks/delegate",
+					"jsonFile" : "directory-benchmarks.delegate-Debug-016552b2f2b82dc059c1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 15,
+					"source" : "benchmarks/delegate",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "benchmarks/ev_queue",
+					"jsonFile" : "directory-benchmarks.ev_queue-Debug-41c3740bb03395769f83.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 16,
+					"source" : "benchmarks/ev_queue",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "tests",
+					"childIndexes" : 
+					[
+						21,
+						22,
+						23
+					],
+					"jsonFile" : "directory-tests-Debug-70e4927a02b591d5c1f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests"
+				},
+				{
+					"build" : "tests/delegate",
+					"jsonFile" : "directory-tests.delegate-Debug-bdc0eb310d555f2fd7f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 20,
+					"projectIndex" : 17,
+					"source" : "tests/delegate",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "tests/observer",
+					"jsonFile" : "directory-tests.observer-Debug-9be8db33af67a2e89ef3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 20,
+					"projectIndex" : 18,
+					"source" : "tests/observer",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "tests/state_machine",
+					"jsonFile" : "directory-tests.state_machine-Debug-8f3b935bd1982cf9f93c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 20,
+					"projectIndex" : 19,
+					"source" : "tests/state_machine",
+					"targetIndexes" : 
+					[
+						17
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						15,
+						16,
+						17,
+						18,
+						19
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						10,
+						20
+					],
+					"name" : "JCore"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "jcore_common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "jcore_delegate",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "jcore_elapsed_timer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "jcore_ev_queue",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "jcore_exec_timer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "jcore_min_max_tracker",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "jcore_observer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "jcore_state_machine",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						10,
+						11,
+						12,
+						13,
+						14
+					],
+					"directoryIndexes" : 
+					[
+						11,
+						12
+					],
+					"name" : "JMath",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "jmath_eigen",
+					"parentIndex" : 9,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "jmath_func_gen",
+					"parentIndex" : 9,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "jmath_integrator",
+					"parentIndex" : 9,
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "jmath_math",
+					"parentIndex" : 9,
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "jmath_transform",
+					"parentIndex" : 9,
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "benchmark_delegate",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19
+					],
+					"name" : "benchmark_ev_queue",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						21
+					],
+					"name" : "test_delegate",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22
+					],
+					"name" : "test_observer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "test_state_machine",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 18,
+					"id" : "benchmark_delegate::@47b1cd7abeb515ecc946",
+					"jsonFile" : "target-benchmark_delegate-Debug-a2d34e25a82c795fe8ee.json",
+					"name" : "benchmark_delegate",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "benchmark_ev_queue::@2c9714b64156853f4479",
+					"jsonFile" : "target-benchmark_ev_queue-Debug-bd4759387a5ee7de78a1.json",
+					"name" : "benchmark_ev_queue",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "jcore_common::@af79f3804eddddbfa7f1",
+					"jsonFile" : "target-jcore_common-Debug-9345f6d0ffbb24cdd974.json",
+					"name" : "jcore_common",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "jcore_delegate::@1745d26b533f54600435",
+					"jsonFile" : "target-jcore_delegate-Debug-03eeca8e619c9ee0f4bc.json",
+					"name" : "jcore_delegate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "jcore_elapsed_timer::@04e2822564935639a50e",
+					"jsonFile" : "target-jcore_elapsed_timer-Debug-01b195d17d73c37065de.json",
+					"name" : "jcore_elapsed_timer",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "jcore_ev_queue::@a0af409557148a99bc7d",
+					"jsonFile" : "target-jcore_ev_queue-Debug-0a3b2bbb7863e7dd9102.json",
+					"name" : "jcore_ev_queue",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "jcore_exec_timer::@7431d563629403c78389",
+					"jsonFile" : "target-jcore_exec_timer-Debug-aa5f091e3c92c148cfb0.json",
+					"name" : "jcore_exec_timer",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "jcore_min_max_tracker::@e078abd4045f2943247a",
+					"jsonFile" : "target-jcore_min_max_tracker-Debug-f502ff10aa00250ed336.json",
+					"name" : "jcore_min_max_tracker",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "jcore_observer::@4581bebf43805b95f013",
+					"jsonFile" : "target-jcore_observer-Debug-875094f1da88609966af.json",
+					"name" : "jcore_observer",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "jcore_state_machine::@1cc4bb7dda7be917a9aa",
+					"jsonFile" : "target-jcore_state_machine-Debug-3da7d5d5689bf83a6270.json",
+					"name" : "jcore_state_machine",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "jmath_eigen::@618339617d08b4a6deba",
+					"jsonFile" : "target-jmath_eigen-Debug-8caea01064d1f2a35866.json",
+					"name" : "jmath_eigen",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "jmath_func_gen::@bbfef8dc4c6121fb18c8",
+					"jsonFile" : "target-jmath_func_gen-Debug-c05e08a8d994e2007a4e.json",
+					"name" : "jmath_func_gen",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "jmath_integrator::@dafbe25e9e344f1de325",
+					"jsonFile" : "target-jmath_integrator-Debug-cdd9257b922fb713b84e.json",
+					"name" : "jmath_integrator",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "jmath_math::@530882b4f44b3c4e5a69",
+					"jsonFile" : "target-jmath_math-Debug-7c10a0118038494e5b92.json",
+					"name" : "jmath_math",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "jmath_transform::@a4c51866acc933ebccb6",
+					"jsonFile" : "target-jmath_transform-Debug-039f280a1e1427a4ad2d.json",
+					"name" : "jmath_transform",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "test_delegate::@371719807e3384e94365",
+					"jsonFile" : "target-test_delegate-Debug-074f7a53f293c04385e4.json",
+					"name" : "test_delegate",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "test_observer::@ca2dcb7724c18d256ad4",
+					"jsonFile" : "target-test_observer-Debug-4d3c82e795dce9d0a0da.json",
+					"name" : "test_observer",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "test_state_machine::@afa36d5f7b84f9096650",
+					"jsonFile" : "target-test_state_machine-Debug-cfe2fa5606a3f0b90e3c.json",
+					"name" : "test_state_machine",
+					"projectIndex" : 19
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/MEGA/JLib/cpp/JCore/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug",
+		"source" : "D:/MEGA/JLib/cpp/JCore"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

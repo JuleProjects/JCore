@@ -1,0 +1,88 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"D:/MEGA/JLib/cpp/JMath/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/jmath",
+			"paths" : 
+			[
+				"build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/_deps/jmath-build/JMathConfig.cmake",
+				"build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/_deps/jmath-build/JMathConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/jmath",
+			"exportName" : "JMathTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "jmath::@6f48640bf957a2b431df",
+					"index" : 0
+				},
+				{
+					"id" : "jmath_eigen::@618339617d08b4a6deba",
+					"index" : 10
+				},
+				{
+					"id" : "jmath_func_gen::@bbfef8dc4c6121fb18c8",
+					"index" : 11
+				},
+				{
+					"id" : "jmath_integrator::@dafbe25e9e344f1de325",
+					"index" : 12
+				},
+				{
+					"id" : "jmath_math::@530882b4f44b3c4e5a69",
+					"index" : 13
+				},
+				{
+					"id" : "jmath_transform::@a4c51866acc933ebccb6",
+					"index" : 14
+				}
+			],
+			"paths" : 
+			[
+				"_deps/jmath-build/CMakeFiles/Export/14000728517354c760d00f7f27735b97/JMathTargets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/jmath-build",
+		"source" : "D:/MEGA/JLib/cpp/JMath"
+	}
+}

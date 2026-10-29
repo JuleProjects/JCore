@@ -1,0 +1,7 @@
+add_test([=[Delegate.FreeFunction]=]  D:/MEGA/JLib/cpp/JCore/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/tests/delegate/test_delegate.exe [==[--gtest_filter=Delegate.FreeFunction]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Delegate.FreeFunction]=]  PROPERTIES WORKING_DIRECTORY D:/MEGA/JLib/cpp/JCore/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/tests/delegate SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[Delegate.Object]=]  D:/MEGA/JLib/cpp/JCore/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/tests/delegate/test_delegate.exe [==[--gtest_filter=Delegate.Object]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Delegate.Object]=]  PROPERTIES WORKING_DIRECTORY D:/MEGA/JLib/cpp/JCore/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/tests/delegate SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[Delegate.ConstObject]=]  D:/MEGA/JLib/cpp/JCore/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/tests/delegate/test_delegate.exe [==[--gtest_filter=Delegate.ConstObject]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Delegate.ConstObject]=]  PROPERTIES WORKING_DIRECTORY D:/MEGA/JLib/cpp/JCore/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/tests/delegate SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  test_delegate_TESTS Delegate.FreeFunction Delegate.Object Delegate.ConstObject)
